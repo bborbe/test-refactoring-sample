@@ -12,6 +12,7 @@ public class SeminarTest {
 	public void testShouldCalculateGrossPrices() {
 		final Seminar seminar = new Seminar("OOP", 500, false);
 
+		// expected:<565.25> but was:<5.950000286102295>
 		assertEquals(565.25, seminar.grossPrice(), 0.001);
 
 		seminar.setNetPrice(300);
