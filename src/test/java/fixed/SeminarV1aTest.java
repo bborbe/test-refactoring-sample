@@ -22,6 +22,6 @@ public class SeminarV1aTest {
 		assertEquals(300, seminar.grossPrice(), 0.001);
 	}
 
-	// Redunate Tests entfernen
+	// Redundante Tests entfernen
 	// DRY
 }
